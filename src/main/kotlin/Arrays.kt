@@ -22,7 +22,7 @@ fun main() {
     //other method
     println(arr.get(2))
 
-    //for set value
+    //for set values
     arr.set(0,"Aman khan")
     println(arr.get(0))
 
