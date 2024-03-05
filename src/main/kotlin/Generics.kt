@@ -2,8 +2,7 @@ fun main(){
 
 
     //Generic  in kotlin
-
-    //calling of generic
+    //calling of generic fun
 
     val iContainer=Container<Int>(2)
     println(iContainer.getValue())
@@ -12,7 +11,6 @@ fun main(){
     println(SContainer.getValue())
 
     //how to check class structure ctrl+click
-
     //use of vararg in kotlin
 
     addOn(2,2,2,2,2)
@@ -32,7 +30,7 @@ fun addOn(vararg values:Int){
 }
 
 
-//generic class
+//how to create generic class
 
 class Container<T>(var data:T){
 
