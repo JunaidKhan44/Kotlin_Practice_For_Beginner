@@ -2,8 +2,9 @@ fun main(){
 
     // 1---list  immutable list
 
-    val nums= listOf<Int>(1,2,3)  // <- such list is called immutable list
-                                // cannot be change etc
+    val nums= listOf<Int>(1,2,3)  
+    // <- such list is called immutable list
+     // cannot be change etc
 
     println(nums.indexOf(3))
     println(nums.contains(4))
